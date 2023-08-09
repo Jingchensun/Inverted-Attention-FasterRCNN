@@ -1,7 +1,6 @@
 # Inverted Attention with Faster R-CNN
 
-## This is an un-officially implementation of the WACV'2020 paper 
-['Improving Object Detection with Inverted Attention'](https://openaccess.thecvf.com/content_WACV_2020/papers/Huang_Improving_Object_Detection_with_Inverted_Attention_WACV_2020_paper.pdf).
+### This is an un-officially implementation of the WACV'2020 paper ['Improving Object Detection with Inverted Attention'](https://openaccess.thecvf.com/content_WACV_2020/papers/Huang_Improving_Object_Detection_with_Inverted_Attention_WACV_2020_paper.pdf).
 
 
 ### Step 1: Installation
