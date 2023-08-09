@@ -15,8 +15,8 @@ from network_files import FasterRCNN, FastRCNNPredictor
 from backbone import resnet50_fpn_backbone
 from my_dataset import VOCDataSet
 from train_utils import get_coco_api_from_dataset, CocoEvaluator
-from faster_rcnn import fasterrcnn_resnet50_fpn
-from IAN import FasterRCNNwithIAN
+from inverted_model.faster_rcnn import fasterrcnn_resnet50_fpn
+from inverted_model.IAN import FasterRCNNwithIAN
 
 
 def summarize(self, catId=None):
