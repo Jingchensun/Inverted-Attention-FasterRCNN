@@ -6,10 +6,9 @@
 ### Step 1: Installation
 Create a conda environment and install dependencies:
 ```bash
-conda create -y -n torch200 python=3.8
-conda activate torch200
-pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
-pip install pycocotools
+conda create -y -n torch113 python=3.8
+conda activate torch113
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install -r requirements.txt
 
 ```
