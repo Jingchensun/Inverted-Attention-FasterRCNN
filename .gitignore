@@ -165,3 +165,4 @@ __pycache__/
 inverted_model/__pycache__/*
 backbone/__pycache__/*
 *.pyc
+IAN_save_weights

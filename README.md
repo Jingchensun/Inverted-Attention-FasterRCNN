@@ -1,6 +1,6 @@
 # Inverted Attention with Faster R-CNN
 
-### This is an un-officially implementation of the WACV'2020 paper ['Improving Object Detection with Inverted Attention'](https://openaccess.thecvf.com/content_WACV_2020/papers/Huang_Improving_Object_Detection_with_Inverted_Attention_WACV_2020_paper.pdf).
+### This is an pytorch implementation of the WACV'2020 paper ['Improving Object Detection with Inverted Attention'](https://openaccess.thecvf.com/content_WACV_2020/papers/Huang_Improving_Object_Detection_with_Inverted_Attention_WACV_2020_paper.pdf).
 
 
 ### Step 1: Installation
@@ -26,16 +26,17 @@ Set the dataset path "--data-path" of VOCdevkit in the 'train_res50_fpn.py'
 ```bash
 python train_res50_fpn.py
 ```
-
+![img](output/IAN_loss_and_lr20230810-010202.png)
 ### Step 4: Evualate the model
 
 ```bash
 python validation.py 
 ```
+![img](output/IAN_mAP.png)
 
 ### Step 5: Visulize the feature map
 Change the model path in the "Object_CAM_IAN.ipynb" under visualization file, and you will obtain the attention map like this:
-
+![img](output/demo.png)
 
 
 ## Acknowledgement
